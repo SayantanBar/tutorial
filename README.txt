@@ -26,3 +26,7 @@ code and now no more want it. Instead of deleting every line by line we can rest
 
 11. `git restore --staged <filename>` -> It removes file from changes from staging area to working area.
 this only works if changes are in your staging area.
+
+12. Diff between git rm vs git restore 
+ans : if we want to move the whole file back to the untrack state, then we do git rm. otherwise if we just want to changes to be moved in working
+area or staging area then we git restore.

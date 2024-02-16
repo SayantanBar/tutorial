@@ -23,3 +23,6 @@ managed them, and knows there version history.
 
 10. `git restore <filename>` -> It removes all file changes from staging area to be commited. this can be useful if we did some dirty piece of 
 code and now no more want it. Instead of deleting every line by line we can restore it or we can say restore last clean version of the file. 
+
+11. `git restore --staged <filename>` -> It removes file from changes from staging area to working area.
+this only works if changes are in your staging area.

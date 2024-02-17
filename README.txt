@@ -32,4 +32,19 @@ ans : if we want to move the whole file back to the untrack state, then we do gi
 area or staging area then we git restore.
 
 13. `git diff commit1 commit2` -> give the diff between all files changes between two commits
+
 14. If you want to avoid opening a text editor like vim/nano to commit massages you can use following command.
+
+15.`git remote` -> List down all the remote connection names.
+
+16.remote connection -> It helps you to link two git repositories for uploading and downloading changes from each otherwise.
+
+17.`git remote add <name of the remote> <link of the remote>` : this command helps us to add a new link to the remote repo and 
+give a name to it.
+
+18.`git remote rm <name of the remote>` this command delete a remote connection.
+
+19.`git remote rename <oldname> <newname>`: this command renames the remote connections.
+NOTE: The name of the remote connection is always used to establish communication between the repo.
+
+

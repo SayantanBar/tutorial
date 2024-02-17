@@ -48,3 +48,4 @@ give a name to it.
 NOTE: The name of the remote connection is always used to establish communication between the repo.
 
 
+20. marge conflicts are very common schenario
